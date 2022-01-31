@@ -14,8 +14,98 @@ button{
     text-align: center;
     background-color: white;
     color: black;
+
+    background: #fff;
+    color: #24252A;
+    border: none;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    resize: vertical;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    opacity: 0.9; 
 }
 
 .container{
     text-align: center;
+}
+
+.button{
+    display:block;
+    margin-top: 10px;
+}
+
+.buttonSort{
+    font-weight: bold;
+    display: inline-block;
+    border: 1px outset rgb(6, 38, 106);
+    background-color: rgb(0, 102, 255);
+    cursor:pointer;
+    color:white;
+    font-size: 25px;
+    border: none;
+    text-align: center;
+    border-radius: 3px;
+    resize: vertical;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.buttonSort:hover {
+    background-color: rgba(0, 102, 255, 0.8);
+    color:white;
+ }
+
+.buttonAdd{
+    font-weight: bold;
+    display: inline-block;
+    border: 1px outset rgb(53, 106, 6);
+    background-color: rgb(25, 158, 25);
+    cursor:pointer;
+    color:white;
+    font-size: 25px;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    resize: vertical;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.buttonAdd:hover {
+    background-color: rgba(25, 158, 25, 0.8);
+    color:white;
+ }
+
+ .buttonClear{
+    font-weight: bold;
+    display: inline-block;
+    border: 1px outset rgb(116, 31, 16);
+    background-color: rgb(216, 68, 24);
+    cursor:pointer;
+    color:white;
+    font-size: 25px;
+    border: none;
+    text-align: center;
+    border-radius: 3px;
+    resize: vertical;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.buttonClear:hover {
+    background-color: rgba(216, 68, 24, 0.8);
+    color:white;
+ }
+
+ol{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#displaySorted{
+    color:white;
+    font-size: 30px;
 }

@@ -1,23 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./bingo.png">
     <title>Sorteador</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
-    <input type="text" id="textInput">
-    <button onclick="avoidBlank()">Adicionar</button>
-    <button onclick="removeAll()">Remover todos</button>
-    <button onclick="sort()">Sortear</button>
+        <input type="text" id="textInput">
+        <div class="button">
+            <button class="buttonAdd" onclick="avoidBlank()">Adicionar</button>
+            <button class="buttonClear" onclick="removeAll()">Limpar</button>
+        </div>
+        <button class="buttonSort" onclick="sort()">Sortear</button>
 
-    <ul id="list"></ul>
 
-    <p id="displaySorted"></p>
+        <ol id="list"></ol>
+
+        <p id="displaySorted"></p>
     </div>
 </body>
 <script src="app.js"></script>
+
 </html>

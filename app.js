@@ -20,10 +20,7 @@ function avoidBlank(){
 function add(){
     array.push(input.value);
 
-    console.log(array);
-
     input.value = "";
-
     print();
 }
 
@@ -32,8 +29,9 @@ function removeAll(){
         if (confirm){ 
             array = [];
 
-            console.log(array);
-        
+            let p = document.getElementById("displaySorted");
+            p.innerText = "";
+
             print();
         }
         else{
@@ -52,11 +50,18 @@ function print(){
 }
 
 function sort(){
-    let np = array.length;
-    
-    let ns = Math.floor(Math.random() * np);
 
-    let p = document.getElementById("displaySorted");
-    p.innerText = "O sorteado(a) foi "  + array[ns];
+    if (array != ""){
+        let np = array.length;
+    
+        let ns = Math.floor(Math.random() * np);
+    
+        let p = document.getElementById("displaySorted");
+        p.innerText = "O sorteado(a) foi: "  + array[ns];
+    }
+    else{
+        alert("Não há nada para sortear")
+    }
+    
 }
 
