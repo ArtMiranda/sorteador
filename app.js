@@ -57,6 +57,6 @@ function sort(){
     let ns = Math.floor(Math.random() * np);
 
     let p = document.getElementById("displaySorted");
-    p.innerText = "O sorteado(a) foi " + array[ns];
+    p.innerText = "O sorteado(a) foi "  + array[ns];
 }
 
