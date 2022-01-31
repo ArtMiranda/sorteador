@@ -5,10 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sorteador</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+    <input type="text" id="textInput">
+    <button onclick="avoidBlank()">Adicionar</button>
+    <button onclick="removeAll()">Remover todos</button>
+    <button onclick="sort()">Sortear</button>
+
     
-    
+
+    <p id="displaySorted"></p>
+    </div>
 </body>
 <script src="app.js"></script>
 </html>

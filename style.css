@@ -1,0 +1,21 @@
+*{
+    margin: none;
+    padding: none;
+    background-color: #1a1a1a;
+}
+
+button{
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+#textInput{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.container{
+    text-align: center;
+}
