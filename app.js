@@ -4,11 +4,11 @@ let input = document.getElementById("textInput");
 addEventListener('keypress', e => {
     if (e.key == "Enter") {
 
-        avoidBlank();
+        preventBlank();
     }
 })
 
-function avoidBlank(){
+function preventBlank(){
     if(input.value == ""){
         alert("Campo vazio");
     }
@@ -45,8 +45,13 @@ function print(){
     array.forEach((item)=>{
         let li = document.createElement("li");
         li.innerText = item;
+        li.innerHTML += "<button onclick='test()'><img class='deleteImg' src='./delete.png'></img></button>";
         list.appendChild(li);
       })
+}
+
+function test(){
+    
 }
 
 function sort(){

@@ -9,12 +9,11 @@
     <title>Sorteador</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <div class="container">
         <input type="text" id="textInput">
         <div class="button">
-            <button class="buttonAdd" onclick="avoidBlank()">Adicionar</button>
+            <button class="buttonAdd" onclick="preventBlank()">Adicionar</button>
             <button class="buttonClear" onclick="removeAll()">Limpar</button>
         </div>
         <button class="buttonSort" onclick="sort()">Sortear</button>
@@ -24,7 +23,6 @@
 
         <p id="displaySorted"></p>
     </div>
+    <script src="app.js"></script>
 </body>
-<script src="app.js"></script>
-
 </html>
