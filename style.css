@@ -104,6 +104,13 @@ ol{
     font-size: 30px;
 }
 
-.deleteImg{
-    width: 25px;
+#select{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    padding: 5px;
 }
