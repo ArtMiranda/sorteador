@@ -12,18 +12,20 @@
     background: #fff;
     color: #24252A;
     border: none;
-    width: 400px;
+    /* width: 400px; */
     height: 40px;
     text-align: center;
-    font-size: 25px;
-    resize: vertical;
+    /* font-size: 25px; */
+    resize: vertical; 
     border-radius: 5px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-    opacity: 0.9; 
+    opacity: 0.9;  
 }
 
 .container{
     text-align: center;
+    width: 50%;
+    margin: auto;
 }
 
 .button{
@@ -113,4 +115,30 @@ ol{
     background-color: #1a1a1a;
     border-radius: 8px;
     padding: 5px;
+}
+
+.team1{
+    display: block;
+    width: 25%;
+    margin: none;
+    float: left;
+}
+
+.team2{
+    display: block;
+    float: right;
+    width: 25%;
+    margin: none;
+}
+#teamTitle1{
+    color:rgb(23, 94, 248);
+}
+
+#teamTitle2{
+    color:rgb(23, 94, 248);
+    
+}
+
+.hidden{
+    display: none;
 }
